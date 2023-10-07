@@ -10,13 +10,13 @@ This is currently a work in progress and check the branchs for the old versions.
 New single command quicklaunch
 
 ```
-bash <(curl -L christitus.com/archtitus)
+bash <(curl -L siteop.dev/ArchInstall.sh)
 ```
 
-Old Script with all the customizations is located in the (all-in-one-2022 branch) here: <https://github.com/ChrisTitusTech/ArchTitus/tree/all-in-one-2022-script>
+Old Script with all the customizations is located in the (all-in-one-2022 branch) here: <https://github.com/siteoperator/ArchInstall/tree/all-in-one-2022-script>
 
 # ArchTitus Installer Script
-[![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/siteoperator/ArchInstall/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <img src="https://i.imgur.com/YiNMnan.png" />
 
@@ -35,9 +35,9 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
-./archtitus.sh
+git clone https://github.com/siteoperator/ArchInstall
+cd ArchInstall
+./ArchInstall.sh
 ```
 
 ### System Description
